@@ -1,0 +1,20 @@
+/**
+ * Neiel.Dev
+ * https://neiel.dev
+ */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,900;1,200;1,400;1,900&display=swap');
+#title {
+    font-family: 'Source Code Pro', monospace !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    top:35%;
+    text-align: center;
+}
+@media (max-width:415px) {
+    #title span {
+        font-size: 18px;
+    }
+    img {
+        width: 90%;
+    }
+}
